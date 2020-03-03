@@ -1,0 +1,14 @@
+<p>students works!</p>
+
+
+<ul>
+    <li *ngFor="let studnet of studentData">
+        {{studnet.id}},
+        {{studnet.name}},
+        {{studnet.address}}
+    </li>
+</ul>
+
+<h1> Weather in Galway </h1>
+
+{{weatherData[0].description}}
